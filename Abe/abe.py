@@ -1180,7 +1180,7 @@ class Abe:
         body += ['</p>\n'
          '<h3>Transactions</h3>\n'
          '<table class="table table-condensed table-hover">\n<tr><th>Transaction</th><th>Block</th>'
-         '<th>Approx. Time</th><th>Amount</th><th>Balance <small>( in ',escape(chain['code3']),' )</small></th>'
+         '<th>Approx. Time</th><th>Amount</th><th>Balance</th>'
 		 '</tr>\n']
         for elt in txpoints:
             chain = chains[elt['chain_id']]
