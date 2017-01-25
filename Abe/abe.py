@@ -85,7 +85,7 @@ DEFAULT_TEMPLATE = """
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="logo navbar-brand" href="%(dotdot)s%(HOMEPAGE)s">BitQuark Blockchain Explorer</a> </div>
+      <a class="logo navbar-brand" href="%(dotdot)s%(HOMEPAGE)s"><img src="%(dotdot)s%(STATIC_PATH)slogo32.png" class="logoimg" style="vertical-align: middle;" alt="BitQuark logo"> BitQuark Blockchain Explorer</a> </div>
     <div class="collapse navbar-collapse"> 
       <form class="navbar-form navbar-right" role="search" action="%(dotdot)ssearch">
         <div class="form-group">
